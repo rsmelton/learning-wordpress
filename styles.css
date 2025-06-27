@@ -1,13 +1,18 @@
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; 
+       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica Light", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 body { box-sizing: border-box;
        margin: 0;
        padding: 2rem; }
 
-.indentation-level-one { margin-left: -0.5rem; }
+.ten-second-summary-list-item-indentation { margin-left: -0.5rem; }
 
-.indentation-level-two { margin-left: 1rem; }
+.indentation-level-one { margin-left: -2.5rem; }
 
-.indentation-level-three { margin-left: 3.4rem; }
+.indentation-level-two { margin-left: -0.5rem; }
+
+.indentation-level-three { margin-left: 1rem; }
+
+.indentation-level-four { margin-left: 3.4rem; }
 
 .non-bulleted-list { list-style: none; }
