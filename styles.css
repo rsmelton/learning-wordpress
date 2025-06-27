@@ -5,6 +5,8 @@ body { box-sizing: border-box;
        margin: 0;
        padding: 2rem; }
 
+.ten-second-summay-list-item-padding-bottom { padding-bottom: 1rem; }
+
 .ten-second-summary-list-item-indentation { margin-left: -1.3rem; }
 
 .indentation-level-one { margin-left: -2.5rem; }
