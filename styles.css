@@ -15,4 +15,12 @@ body { box-sizing: border-box;
 
 .indentation-level-four { margin-left: 3.4rem; }
 
+.section-padding-top { padding-top: 2rem; }
+
+.section-indentation-level-one { padding-left: 1rem; }
+
+.section-indentation-level-two { padding-left: 2rem; }
+
+.section-indentation-level-three { padding-left: 3rem; }
+
 .non-bulleted-list { list-style: none; }

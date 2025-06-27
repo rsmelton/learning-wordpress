@@ -15,33 +15,76 @@
         <li class="ten-second-summary-list-item-indentation">I added code (using a WordPress API endpoint) to a MERN stack website that I built previously, called <a href="https://dragons-brew-cafe.onrender.com">Dragon's Brew Cafe</a>, to fetch blog entries from the Dragon’s Brew Coffee Corner blog (click on the “Blog” navigation bar entry on the Dragon’s Brew Cafe website above to see this in action).</li>
         <li class="ten-second-summary-list-item-indentation">I experimented with various mechanisms for customizing the wordpress.org version of the Dragon’s Brew Coffee Corner website.</li>
     </ul>
-    <h1>The gory details</h1>
+
+    <!-- Outline/table of contents -->
+    <h1>The geeky details</h1>
     <span>Below is a more detailed account of the work I did (click on the outline entries below to skip directly to that section):</span>
     <ul class="non-bulleted-list">
-        <li class="indentation-level-one">1 WordPress learning/development experiments</li>
-        <li class="indentation-level-two">1.1 Built https://dragonsbrewcoffeecorner.wordpress.com with wordpress.com</li>
-        <li class="indentation-level-two">1.2 Built https://www.dragons-brew-coffee-corner.com with wordpress.org</li>
-        <li class="indentation-level-three">1.2.1 WordPress Dashboard/Block Editor</li>
-        <li class="indentation-level-four">1.2.1.1 Document Overview tab (used to structure elements on the page)</li>
-        <li class="indentation-level-four">1.2.1.2 Custom fields with the ACF plugin</li>
-        <li class="indentation-level-four">1.2.1.3 Appearance editor (to edit pages or templates)</li>
-        <li class="indentation-level-three">1.2.2 Hosted on dreamhost.com</li>
-        <li class="indentation-level-four">1.2.2.1 SSL certificate</li>
-        <li class="indentation-level-two">1.3 Fetching WordPress posts from another website</li>
+        <!-- Section 1 -->
+        <li class="indentation-level-one"><a href="#section-1">1 WordPress learning/development experiments</a></li>
+        <li class="indentation-level-two"><a href="#section-1.1">1.1 Built Dragon’s Brew Coffee Corner with wordpress.com</a></li>
+        <li class="indentation-level-two"><a href="#section-1.2">1.2 Built Dragon’s Brew Coffee Corner with wordpress.org</a></li>
+        <li class="indentation-level-three"><a href="#section-1.2.1">1.2.1 WordPress Dashboard/Block Editor</a></li>
+        <li class="indentation-level-four"><a href="#section-1.2.1.1">1.2.1.1 Document Overview tab (used to structure elements on the page)</a></li>
+        <li class="indentation-level-four"><a href="#section-1.2.1.2">1.2.1.2 Custom fields with the ACF plugin</a></li>
+        <li class="indentation-level-four"><a href="#section-1.2.1.3">1.2.1.3 Appearance editor (to edit pages or templates)</a></li>
+        <li class="indentation-level-three"><a href="#section-1.2.2">1.2.2 Hosted on dreamhost.com</a></li>
+        <li class="indentation-level-two"><a href="#section-1.3">1.3 Fetching WordPress posts from another website</a></li>
+
+        <!-- Section 2 -->
+        <li class="indentation-level-one"><a href="#section-2">2 My opinion of WordPress</a></li>
+        <li class="indentation-level-two"><a href="#section-2.1">2.1 Overall</a></li>
+        <li class="indentation-level-two"><a href="#section-2.2">2.2 The good</a></li>
+        <li class="indentation-level-two"><a href="#section-2.3">2.3 The bad</a></li>
+
+        <!-- Section 3 -->
+        <li class="indentation-level-one"><a href="#section-3">3 Future work</a></li>
+        <li class="indentation-level-two"><a href="#section-3.1">3.1 learn.wordpress.com videos as needed for more formal instruction</a></li>
+        <li class="indentation-level-two"><a href="#section-3.2">3.2 Bug fixes/future features</a></li>
+        <li class="indentation-level-three"><a href="#section-3.2.1">3.2.1 Fix non-HTML formatting of blog entries on wordpress.org website</a></li>
+        <li class="indentation-level-three"><a href="#section-3.2.2">3.2.2 Create custom image field with ACF plugin to fetch images as well as text</a></li>
     </ul>
-    <ul class="non-bulleted-list">
-        <li class="indentation-level-one">2 My opinion of WordPress</li>
-        <li class="indentation-level-two">2.1 Overall</li>
-        <li class="indentation-level-two">2.2 The good</li>
-        <li class="indentation-level-two">2.3 The bad</li>
-    </ul>
-    <ul class="non-bulleted-list">
-        <li class="indentation-level-one">3 Future work</li>
-        <li class="indentation-level-two">3.1 learn.wordpress.com videos as needed for more formal instruction</li>
-        <li class="indentation-level-two">3.2 Bug fixes/future features</li>
-        <li class="indentation-level-three">3.2.1 Fix non-HTML formatting of blog entries on wordpress.org website</li>
-        <li class="indentation-level-three">3.2.2 Create custom image field with ACF plugin to fetch images as well as text</li>
-    </ul>
-    <h2>1 WordPress learning/development experiments</h2>
+    
+    <!-- Section 1 -->
+    <div class="section-padding-top">
+        <h2 id="section-1">1 WordPress learning/development experiments</h2>
+        <h3 id="section-1.1" class="section-indentation-level-one">1.1 Dragon’s Brew Coffee Corner blog: wordpress.com version</h3>
+        <p class="section-indentation-level-one">I built this version of the blog just to get started with WordPress, and to see what features the non-installed, auto-hosted WordPress blogs offered.  Obviously, the wordpress.com site offers much less flexibility than the wordpress.org installed apps, which are fully customizable, offer  unlimited themes and plugins, etc.</p>
+        <h3 id="section-1.2" class="section-indentation-level-one">1.2 Dragon’s Brew Coffee Corner blog: wordpress.org version</h3>
+        <h4 id="section-1.2.1" class="section-indentation-level-two">1.2.1 WordPress Dashboard/Block Editor</h4>
+        <h4 id="section-1.2.1.1" class="section-indentation-level-three">1.2.1.1 Document Overview tab</h4>
+        <p class="section-indentation-level-three">When editing the Dragon’s Brew Coffee Corner blog, I ran into the issue of needing to change the format of what my posts displayed; through the document overview tab in the block editor, I was able to change the post template to display the information desired.</p>
+        <h4 id="section-1.2.1.2" class="section-indentation-level-three">1.2.1.2 Custom fields with the ACF plugin</h4>
+        <p class="section-indentation-level-three">I was curious about the possibility of displaying dynamic data in a blog post, and came across the ACF plugin. Using the ACF plugin, the “field groups” functionality enables one to create the new field, followed by specifying the desired data inside the individual post. We can then decide where we want this field displayed in the block editor of the template across all posts.</p>
+        <h4 id="section-1.2.1.3" class="section-indentation-level-three">1.2.1.3 Appearance Editor</h4>
+        <p class="section-indentation-level-three">In the Appearance Editor we can make all sorts of different changes to the different pages of our website, the templates we are using, or adding additional CSS if desired.</p>
+        <h4 id="section-1.2.2" class="section-indentation-level-two">1.2.2 Hosting (on dreamhost.com)</h4>
+        <p class="section-indentation-level-two">After doing some research, I decided on DreamHost for hosting my Dragon’s Brew Coffee Corner blog. DreamHost is quite nice as it installs WordPress for you, gives quick and easy access to the WordPress dashboard through their own dashboard, has metrics for showing the traffic to your website, and even gives you a free SSL certificate.</p>
+        <h3 id="section-1.3" class="section-indentation-level-one">1.3 Fetching WordPress posts from another website</h3>
+        <p class="section-indentation-level-one">I thought it would be interesting to take my existing <Dragon’s Brew Cafe> MERN stack application and create a page that displays the latest blog post from the <Dragon’s Brew Coffee Corner> (wordpress.org version) blog site. In my React front end, I fetched the latest post from the WordPress API endpoint, and then stored the response locally. I then took a peek at what JSON was returned to see what fields I needed to access to display them properly. </p>
+    </div>
+    
+    <!-- Section 2 -->
+    <div class="section-padding-top">
+        <h2 id="section-2">2 My opinion of WordPress</h2>
+        <h3 id="section-2.1" class="section-indentation-level-one">2.1 Overall impression</h3>
+        <p class="section-indentation-level-one">WordPress seems fine.  No tool is perfect, and the fact that WordPress started its life as a blog and evolved into a CMS of sorts is somewhat evident in places, but it’s certainly workable enough.  Of course, my opinion might change as I delve deeper into its customizations, as I’ve only scratched the surface there.</p>
+        <h3 id="section-2.2" class="section-indentation-level-one">2.2 The good</h3>
+        <p class="section-indentation-level-one">There are plenty of things to like about WordPress.  One can certainly get started quickly using its built in themes and plugins, getting things working quickly, and then evolve the site in more desirable design directions by customizing the desirable pieces.  There’s a built in block editor for structural changes, a form of version control through the revisions mechanism, and it’s nice to be able to view the code in the code editor and the blocks in the visual editor.</p>
+        <h3 id="section-2.3" class="section-indentation-level-one">2.3 The bad</h3>
+        <p class="section-indentation-level-one">As I said above, my opinion might certainly change as I work with it more, but at least currently, most things in WordPress seem fairly workable to me.  Its editing UI could certainly use some work and polish in a number of places, and the number of features in the dashboard is a bit overwhelming and might benefit from some reorganization, but I don’t have any major complaints.</p>
+    </div>
+    
+    <!-- Section 3 -->
+    <div class="section-padding-top">
+        <h2 id="section-3">3 Future work</h2>
+        <h3 id="section-3.1" class="section-indentation-level-one">3.1 learn.wordpress.com</h3>
+        <p class="section-indentation-level-one">learn.wordpress.com is a huge repository of learning materials for WordPress.  I’ll use this moving forward as a resource for more formal instruction on complex topics.</p>
+        <h3 id="section-3.2" class="section-indentation-level-one">3.2 Bug fixes/future features</h3>
+        <h4 id="section-3.2.1" class="section-indentation-level-two">3.2.1 Non-HTML formatting of blog entries on the Dragon’s Brew Cafe website</h4>
+        <p class="section-indentation-level-two">Currently, when displaying Dragon’s Brew Coffee Corner blog entries that I fetch from the WordPress endpoint from within React, I temporarily stripped out the HTML from the retrieved blog entry text block, but I need to go back and fix this so that the HTML in those text blocks is preserved (you may have noticed that the paragraphs in the blog entries are currently collapsed into one paragraph – this is why).</p>
+        <h4 id="section-3.2.2" class="section-indentation-level-two">3.2.2 Create custom image field with ACF plugin to fetch images</h4>
+        <p class="section-indentation-level-two">Currently, when displaying Dragon’s Brew Coffee Corner blog entries that I fetch from the WordPress endpoint from within React, images are not included in the default JSON payload coming from WordPress.  This is possible to do by creating a custom image field using the ACF plugin, but I just haven’t done it yet.</p>
+    </div>
 </body>
 </html>
