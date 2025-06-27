@@ -4,6 +4,10 @@ body { box-sizing: border-box;
        margin: 0;
        padding: 2rem; }
 
-ul { margin-top: -0.7rem; }
+.indentation-level-one { margin-left: -0.5rem; }
 
-li { list-style: none; }
+.indentation-level-two { margin-left: 1rem; }
+
+.indentation-level-three { margin-left: 3.4rem; }
+
+.non-bulleted-list { list-style: none; }
