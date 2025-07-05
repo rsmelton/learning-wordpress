@@ -20,3 +20,9 @@ body { box-sizing: border-box;
 .section-padding-top { padding-top: 2rem; }
 
 .non-bulleted-list { list-style: none; }
+
+.update-text { color: red; }
+
+.update-li-padding-bottom { padding-bottom: 1rem; }
+
+.update-li-indentation { margin-left: -1.3rem; }
